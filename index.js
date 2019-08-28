@@ -1,7 +1,7 @@
 
 module.exports = jMoment
 
-var moment = require('moment')
+var moment = require('moment').default || require('moment')
   , jalaali = require('jalaali-js')
 
 /************************************
